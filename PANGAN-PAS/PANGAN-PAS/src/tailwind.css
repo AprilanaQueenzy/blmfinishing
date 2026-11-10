@@ -1,0 +1,5 @@
+/* Tailwind v4 — utilities only (no preflight) with prefix "tw:" so it never clashes with the existing stylesheet. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme) prefix(tw);
+@import "tailwindcss/utilities.css" layer(utilities);
+@source "./";
